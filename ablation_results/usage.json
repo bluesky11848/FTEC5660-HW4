@@ -1,6 +1,6 @@
 {
-  "llm_calls": 386,
-  "llm_input_tokens": 533729,
-  "llm_output_tokens": 1282,
-  "cost_usd": 0.0808
+  "llm_calls": 436,
+  "llm_input_tokens": 586951,
+  "llm_output_tokens": 1375,
+  "cost_usd": 0.0889
 }

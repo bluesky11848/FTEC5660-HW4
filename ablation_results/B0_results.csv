@@ -42,7 +42,7 @@ q040,table,"What was the value of Kestrel Semiconductor's inventories at 31 Dece
 q041,unanswerable,"How much cash and cash equivalents did Brightwater Mining hold at 31 December 2025, in USD millions?",null,doc_001.html;doc_002.html;doc_026.html;doc_028.html;doc_038.html,,NOT_FOUND,True,NOT_FOUND,True
 q042,fact,Who was Brightwater Energy's Chief Financial Officer at the end of FY2024?,null,doc_026.html;doc_031.html;doc_032.html;doc_034.html;doc_038.html,True,William Petrov,True,William Petrov,True
 q043,table,"How much revenue did Halcyon Freight's Intermodal segment generate in FY2025, in USD millions?",null,doc_008.html;doc_016.html;doc_030.html;doc_035.html,False,NOT_FOUND,False,586.6,True
-q044,unanswerable,"What was Orchid Bay Resorts' operating income in FY2024, in USD millions?",null,doc_001.html;doc_002.html;doc_022.html;doc_037.html,,NOT_FOUND,True,NOT_FOUND,True
+q044,unanswerable,"What was Orchid Bay Resorts' operating income in FY2024, in USD millions?",null,doc_001.html;doc_002.html;doc_022.html;doc_037.html,,231.3,False,NOT_FOUND,True
 q045,table,"How much revenue did Lumen Harbor Foods' Bakery segment generate in FY2024, in USD millions?",null,doc_023.html;doc_036.html;doc_040.html,False,NOT_FOUND,False,634.6,True
 q046,table,"What was Sablewood Retail's gross profit in FY2023, in USD millions?",null,doc_004.html;doc_009.html;doc_010.html;doc_018.html;doc_029.html,False,NOT_FOUND,False,897.8,True
 q047,table,"What were Corvane Pharma's total assets at 31 December 2024, in USD millions?",null,doc_023.html;doc_024.html;doc_027.html;doc_031.html,False,NOT_FOUND,False,2711.4,True

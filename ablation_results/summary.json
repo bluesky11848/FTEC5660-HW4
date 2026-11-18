@@ -6,9 +6,9 @@
     "recall": 0.2826086956521739,
     "kept": 1.0,
     "rejected": 0.0,
-    "accuracy": 0.48333333333333334,
-    "retrieval_seconds": 0.131,
-    "total_seconds": 11.493
+    "accuracy": 0.5,
+    "retrieval_seconds": 0.137,
+    "total_seconds": 11.249
   },
   {
     "variant": "V1",
@@ -18,8 +18,8 @@
     "kept": 1.0,
     "rejected": 0.0,
     "accuracy": 0.45,
-    "retrieval_seconds": 0.271,
-    "total_seconds": 9.529
+    "retrieval_seconds": 0.275,
+    "total_seconds": 9.964
   },
   {
     "variant": "V2",
@@ -29,8 +29,8 @@
     "kept": 1.0,
     "rejected": 0.0,
     "accuracy": 0.4166666666666667,
-    "retrieval_seconds": 0.309,
-    "total_seconds": 10.212
+    "retrieval_seconds": 0.311,
+    "total_seconds": 9.885
   },
   {
     "variant": "V3",
@@ -39,41 +39,52 @@
     "recall": 0.1956521739130435,
     "kept": 1.0,
     "rejected": 0.0,
-    "accuracy": 0.38333333333333336,
-    "retrieval_seconds": 0.291,
-    "total_seconds": 9.457
+    "accuracy": 0.36666666666666664,
+    "retrieval_seconds": 0.298,
+    "total_seconds": 9.854
   },
   {
     "variant": "V4",
-    "change": "Parse and filter metadata; rank the remaining metric query",
+    "change": "Parse queries and filter company/year/document metadata",
+    "chunks": 865,
+    "recall": 0.6304347826086957,
+    "kept": 1.0,
+    "rejected": 0.7142857142857143,
+    "accuracy": 0.7333333333333333,
+    "retrieval_seconds": 0.392,
+    "total_seconds": 8.157
+  },
+  {
+    "variant": "V5",
+    "change": "Remove company/year terms from the ranking query",
     "chunks": 865,
     "recall": 1.0,
     "kept": 1.0,
     "rejected": 0.7142857142857143,
     "accuracy": 1.0,
-    "retrieval_seconds": 0.377,
-    "total_seconds": 607.786
+    "retrieval_seconds": 0.38,
+    "total_seconds": 8.226
   },
   {
-    "variant": "V5",
+    "variant": "V6",
     "change": "Allocate comparison evidence per company",
     "chunks": 865,
     "recall": 1.0,
     "kept": 1.0,
     "rejected": 0.7142857142857143,
     "accuracy": 1.0,
-    "retrieval_seconds": 0.391,
-    "total_seconds": 9.099
+    "retrieval_seconds": 0.386,
+    "total_seconds": 8.343
   },
   {
-    "variant": "V6",
+    "variant": "V7",
     "change": "Reject unknown companies, unsupported years/metrics",
     "chunks": 865,
     "recall": 1.0,
     "kept": 1.0,
     "rejected": 1.0,
     "accuracy": 1.0,
-    "retrieval_seconds": 0.416,
-    "total_seconds": 7.507
+    "retrieval_seconds": 0.425,
+    "total_seconds": 7.676
   }
 ]
